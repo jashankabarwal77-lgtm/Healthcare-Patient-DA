@@ -1,0 +1,1001 @@
+patient_id,age,gender,diagnosis,treatment,recovery_time_days,length_of_stay_days,admission_date,readmission_risk,readmitted
+1,64,Male,Heart Disease,Medication,1,1,2023-11-14,0.4,0
+2,52,Male,Heart Disease,Surgery,14,4,2023-01-18,0.45,0
+3,67,Female,Heart Disease,Surgery,12,3,2022-06-11,0.55,1
+4,85,Female,Cancer,Surgery,7,4,2022-10-13,0.6500000000000001,0
+5,50,Male,Stroke,Medication,15,3,2022-03-12,0.30000000000000004,0
+6,50,Female,Diabetes Type 2,Medication,11,4,2023-03-30,0.1,0
+7,86,Male,Diabetes Type 2,Medication,15,6,2023-07-21,0.30000000000000004,0
+8,70,Female,Cancer,Surgery,52,12,2023-02-01,0.65,0
+9,45,Female,Pneumonia,Medication,5,2,2023-05-30,0.1,0
+10,65,Female,Cancer,Surgery,43,14,2022-01-26,0.65,1
+11,45,Female,Hypertension,Medication,10,1,2022-11-09,0.1,0
+12,45,Female,Heart Disease,Surgery,14,8,2022-05-06,0.45,0
+13,59,Male,Heart Disease,Medication,4,1,2023-02-12,0.30000000000000004,0
+14,18,Female,Pneumonia,Medication,5,2,2023-07-19,0.1,0
+15,20,Male,Pneumonia,Medication,12,4,2022-07-17,0.1,0
+16,43,Female,Cancer,Surgery,27,8,2022-07-07,0.55,1
+17,34,Female,Diabetes Type 2,Medication,1,1,2023-11-29,0.1,0
+18,61,Female,Hypertension,Medication,3,3,2023-12-17,0.2,1
+19,36,Male,Pneumonia,Medication,5,2,2023-04-29,0.1,1
+20,26,Female,Appendicitis,Surgery,19,8,2023-03-26,0.25,0
+21,84,Female,Cancer,Surgery,37,8,2023-06-07,0.7500000000000001,1
+22,50,Female,Cancer,Surgery,38,11,2022-12-20,0.55,1
+23,56,Male,Cancer,Surgery,27,8,2023-10-20,0.55,1
+24,26,Male,Pneumonia,Medication,1,1,2023-08-20,0.1,1
+25,44,Male,Pneumonia,Medication,5,3,2022-04-10,0.1,0
+26,57,Male,Hypertension,Medication,9,3,2023-09-08,0.1,0
+27,31,Female,Heart Disease,Surgery,15,9,2023-07-12,0.45,0
+28,62,Male,Cancer,Surgery,18,5,2023-07-10,0.55,0
+29,42,Female,Cancer,Surgery,24,1,2022-10-05,0.55,1
+30,49,Male,Pneumonia,Medication,15,6,2023-11-24,0.1,0
+31,42,Male,Cancer,Surgery,15,7,2023-11-30,0.45,0
+32,92,Female,Heart Disease,Surgery,25,5,2023-09-18,0.7500000000000001,1
+33,54,Female,Diabetes Type 2,Medication,1,1,2023-05-06,0.1,0
+34,33,Female,Hypertension,Medication,9,2,2022-09-12,0.1,0
+35,71,Female,Cancer,Surgery,28,6,2023-01-16,0.7500000000000001,0
+36,30,Female,Hypertension,Medication,8,2,2023-06-26,0.1,1
+37,59,Male,Diabetes Type 2,Medication,3,2,2022-09-21,0.1,0
+38,18,Female,Diabetes Type 1,Medication,7,5,2023-09-02,0.1,0
+39,28,Female,Appendicitis,Surgery,9,1,2022-11-25,0.25,1
+40,58,Female,Cancer,Surgery,25,6,2022-04-25,0.55,1
+41,69,Male,Diabetes Type 2,Medication,12,5,2022-10-03,0.2,0
+42,58,Female,Cancer,Surgery,28,8,2023-05-03,0.55,1
+43,52,Male,Heart Disease,Surgery,19,9,2022-10-08,0.45,1
+44,48,Male,Diabetes Type 2,Medication,6,1,2022-10-02,0.1,0
+45,25,Male,Diabetes Type 1,Medication,7,1,2023-12-20,0.1,0
+46,40,Male,Hypertension,Medication,8,6,2022-11-24,0.1,0
+47,45,Female,Hypertension,Medication,5,3,2022-07-30,0.1,0
+48,76,Female,Cancer,Surgery,27,6,2023-12-28,0.7500000000000001,1
+49,61,Female,Pneumonia,Medication,6,2,2023-07-06,0.2,0
+50,19,Male,Diabetes Type 1,Medication,10,4,2022-01-26,0.1,0
+51,61,Male,Hypertension,Medication,8,2,2022-01-27,0.2,0
+52,47,Male,Diabetes Type 2,Medication,4,1,2023-12-03,0.1,0
+53,41,Female,Heart Disease,Surgery,16,5,2022-03-24,0.45,1
+54,67,Male,Heart Disease,Surgery,24,11,2023-11-13,0.65,1
+55,75,Female,Diabetes Type 2,Medication,12,6,2023-02-17,0.30000000000000004,0
+56,73,Female,Pneumonia,Medication,6,5,2022-06-16,0.30000000000000004,0
+57,38,Male,Heart Disease,Surgery,10,1,2023-12-01,0.45,1
+58,48,Female,Cancer,Surgery,21,5,2022-06-18,0.55,1
+59,61,Female,Hypertension,Medication,7,3,2022-08-17,0.2,0
+60,74,Female,Heart Disease,Surgery,25,3,2023-09-01,0.7500000000000001,0
+61,45,Female,Pneumonia,Medication,7,4,2023-01-02,0.1,0
+62,51,Male,Heart Disease,Surgery,19,6,2023-06-12,0.45,0
+63,32,Male,Diabetes Type 2,Medication,11,3,2023-10-09,0.1,0
+64,31,Female,Hypertension,Medication,9,3,2023-06-22,0.1,0
+65,71,Female,Heart Disease,Medication,9,5,2023-06-08,0.5,1
+66,82,Male,Cancer,Surgery,24,5,2022-03-13,0.7500000000000001,1
+67,53,Female,Cancer,Surgery,25,10,2023-10-07,0.55,0
+68,75,Female,Diabetes Type 2,Medication,9,3,2022-04-16,0.30000000000000004,0
+69,62,Female,Diabetes Type 2,Medication,11,5,2023-11-20,0.2,0
+70,42,Male,Hypertension,Medication,6,2,2022-10-09,0.1,0
+71,62,Female,Heart Disease,Medication,6,5,2022-05-13,0.4,0
+72,85,Female,Diabetes Type 2,Medication,7,1,2023-06-18,0.30000000000000004,0
+73,54,Male,Cancer,Surgery,32,8,2022-09-26,0.55,1
+74,86,Male,Hypertension,Medication,14,3,2023-02-16,0.30000000000000004,0
+75,18,Female,Diabetes Type 1,Medication,11,2,2023-11-04,0.1,0
+76,71,Male,Stroke,Medication,17,6,2023-09-11,0.5,0
+77,56,Female,Hypertension,Medication,8,5,2022-01-18,0.1,1
+78,49,Female,Diabetes Type 2,Medication,3,2,2022-04-27,0.1,0
+79,56,Male,Hypertension,Medication,15,5,2022-05-24,0.1,0
+80,18,Female,Appendicitis,Surgery,6,1,2023-12-18,0.25,0
+81,50,Male,Cancer,Surgery,39,13,2023-07-05,0.55,1
+82,62,Female,Hypertension,Medication,7,1,2023-10-28,0.2,1
+83,84,Male,Cancer,Surgery,33,7,2023-11-19,0.7500000000000001,1
+84,44,Female,Cancer,Surgery,16,4,2023-02-26,0.45,1
+85,38,Male,Cancer,Surgery,52,11,2023-01-04,0.55,1
+86,44,Male,Cancer,Surgery,30,6,2023-10-08,0.55,0
+87,73,Female,Pneumonia,Medication,10,6,2023-07-12,0.30000000000000004,0
+88,61,Male,Cancer,Surgery,44,10,2022-02-19,0.65,0
+89,44,Female,Diabetes Type 2,Medication,5,1,2023-11-09,0.1,0
+90,65,Male,Diabetes Type 2,Medication,8,3,2022-04-16,0.2,0
+91,56,Female,Cancer,Surgery,34,10,2022-08-04,0.55,1
+92,74,Male,Diabetes Type 2,Medication,8,2,2023-10-20,0.30000000000000004,0
+93,40,Female,Heart Disease,Surgery,19,1,2023-03-01,0.45,1
+94,48,Male,Heart Disease,Surgery,12,6,2022-03-13,0.45,0
+95,47,Male,Diabetes Type 2,Medication,2,1,2023-03-22,0.1,0
+96,25,Male,Appendicitis,Surgery,12,6,2022-07-05,0.25,1
+97,60,Male,Cancer,Surgery,36,9,2022-03-11,0.55,1
+98,60,Female,Heart Disease,Medication,5,3,2022-05-30,0.30000000000000004,1
+99,55,Male,Stroke,Surgery,21,8,2022-09-03,0.55,0
+100,50,Female,Cancer,Surgery,22,5,2023-06-22,0.55,0
+101,26,Male,Appendicitis,Surgery,20,7,2023-10-14,0.25,1
+102,46,Male,Hypertension,Medication,5,1,2022-04-09,0.1,0
+103,48,Female,Heart Disease,Surgery,21,6,2022-10-05,0.55,1
+104,38,Female,Heart Disease,Medication,5,3,2023-07-17,0.30000000000000004,0
+105,51,Male,Cancer,Surgery,37,12,2023-10-25,0.55,1
+106,63,Male,Heart Disease,Medication,6,6,2023-03-31,0.4,1
+107,92,Male,Cancer,Surgery,53,17,2022-04-14,0.7500000000000001,0
+108,58,Female,Cancer,Surgery,20,5,2023-08-24,0.45,0
+109,60,Female,Hypertension,Medication,11,8,2023-10-15,0.1,0
+110,53,Male,Diabetes Type 2,Medication,8,5,2023-12-26,0.1,1
+111,18,Female,Pneumonia,Medication,5,1,2022-08-21,0.1,0
+112,54,Female,Heart Disease,Surgery,15,4,2023-01-29,0.45,0
+113,56,Female,Pneumonia,Medication,13,3,2023-05-16,0.1,0
+114,95,Female,Diabetes Type 2,Medication,11,5,2023-11-26,0.30000000000000004,1
+115,51,Male,Hypertension,Medication,5,2,2022-09-08,0.1,0
+116,61,Male,Heart Disease,Surgery,9,4,2023-06-05,0.55,0
+117,54,Male,Diabetes Type 2,Medication,10,1,2022-03-20,0.1,0
+118,31,Male,Hypertension,Medication,7,1,2022-02-21,0.1,0
+119,77,Female,Diabetes Type 2,Medication,13,4,2022-08-14,0.30000000000000004,0
+120,70,Female,Pneumonia,Medication,3,1,2022-02-20,0.2,1
+121,70,Male,Cancer,Surgery,24,5,2022-07-05,0.65,1
+122,36,Male,Hypertension,Medication,10,6,2022-02-03,0.1,0
+123,83,Male,Heart Disease,Medication,11,2,2022-05-11,0.5,1
+124,26,Female,Pneumonia,Medication,8,5,2023-09-24,0.1,0
+125,66,Male,Heart Disease,Surgery,13,6,2023-03-19,0.55,0
+126,95,Female,Heart Disease,Medication,6,1,2023-03-08,0.5,1
+127,35,Male,Cancer,Surgery,37,9,2023-12-05,0.55,0
+128,43,Male,Diabetes Type 2,Medication,10,5,2023-05-12,0.1,0
+129,56,Female,Cancer,Surgery,20,4,2023-02-07,0.45,0
+130,44,Female,Pneumonia,Medication,3,1,2022-11-19,0.1,0
+131,23,Male,Appendicitis,Surgery,13,5,2022-07-29,0.25,0
+132,56,Female,Pneumonia,Medication,5,1,2023-09-07,0.1,0
+133,33,Female,Diabetes Type 2,Medication,4,1,2022-11-25,0.1,0
+134,64,Female,Stroke,Medication,7,2,2023-01-07,0.4,0
+135,36,Male,Heart Disease,Medication,5,2,2023-04-05,0.30000000000000004,0
+136,85,Female,Stroke,Surgery,22,4,2022-05-13,0.7500000000000001,1
+137,39,Female,Pneumonia,Medication,3,1,2023-10-13,0.1,0
+138,48,Female,Hypertension,Medication,7,1,2022-05-01,0.1,0
+139,71,Male,Pneumonia,Medication,10,5,2023-08-29,0.30000000000000004,0
+140,30,Male,Diabetes Type 2,Medication,8,3,2023-03-28,0.1,0
+141,59,Male,Cancer,Surgery,13,5,2022-05-09,0.45,1
+142,81,Female,Cancer,Surgery,42,13,2022-04-01,0.7500000000000001,1
+143,22,Male,Pneumonia,Medication,13,5,2023-08-27,0.1,0
+144,58,Female,Heart Disease,Surgery,14,4,2023-07-29,0.45,1
+145,60,Female,Diabetes Type 2,Medication,11,6,2022-01-29,0.1,0
+146,70,Male,Diabetes Type 2,Medication,14,5,2023-12-23,0.2,1
+147,30,Female,Cancer,Surgery,36,10,2023-06-08,0.55,1
+148,28,Male,Asthma,Medication,7,2,2022-11-29,0.1,0
+149,65,Female,Cancer,Surgery,40,11,2022-10-24,0.65,0
+150,60,Male,Cancer,Surgery,41,11,2022-05-10,0.55,1
+151,60,Female,Cancer,Surgery,41,13,2022-10-20,0.55,0
+152,61,Female,Heart Disease,Medication,4,1,2022-06-22,0.4,0
+153,41,Female,Hypertension,Medication,1,1,2023-12-21,0.1,0
+154,59,Female,Cancer,Surgery,14,6,2022-01-24,0.45,0
+155,60,Female,Cancer,Surgery,30,8,2022-04-09,0.55,1
+156,40,Female,Pneumonia,Medication,8,4,2023-02-10,0.1,0
+157,92,Female,Diabetes Type 2,Medication,5,2,2022-12-22,0.30000000000000004,0
+158,64,Female,Cancer,Surgery,44,12,2022-05-19,0.65,0
+159,31,Male,Heart Disease,Medication,5,2,2023-05-18,0.30000000000000004,0
+160,68,Female,Heart Disease,Medication,8,4,2022-06-23,0.4,1
+161,35,Female,Diabetes Type 2,Medication,4,2,2022-01-29,0.1,0
+162,70,Female,Diabetes Type 2,Medication,2,1,2023-05-11,0.2,0
+163,78,Male,Diabetes Type 2,Medication,11,4,2023-10-17,0.30000000000000004,0
+164,38,Female,Diabetes Type 2,Medication,12,6,2022-12-17,0.1,0
+165,74,Male,Pneumonia,Medication,10,3,2023-07-08,0.30000000000000004,0
+166,63,Female,Stroke,Surgery,10,4,2022-10-26,0.55,0
+167,71,Male,Diabetes Type 2,Medication,14,9,2023-12-21,0.30000000000000004,1
+168,92,Female,Diabetes Type 2,Medication,3,2,2022-07-11,0.30000000000000004,1
+169,50,Female,Diabetes Type 2,Medication,3,1,2023-11-03,0.1,0
+170,39,Male,Hypertension,Medication,6,1,2022-03-05,0.1,0
+171,37,Female,Diabetes Type 2,Medication,7,2,2023-10-26,0.1,0
+172,38,Male,Hypertension,Medication,3,2,2022-08-03,0.1,0
+173,53,Female,Diabetes Type 2,Medication,7,3,2022-06-15,0.1,0
+174,61,Female,Diabetes Type 2,Medication,10,3,2023-06-27,0.2,0
+175,60,Female,Heart Disease,Surgery,21,4,2022-08-20,0.55,1
+176,71,Female,Pneumonia,Medication,16,5,2023-06-25,0.30000000000000004,1
+177,55,Female,Pneumonia,Medication,15,6,2022-07-14,0.1,0
+178,84,Male,Hypertension,Medication,14,6,2023-05-21,0.30000000000000004,0
+179,49,Male,Diabetes Type 2,Medication,6,3,2022-11-30,0.1,0
+180,95,Female,Stroke,Medication,25,12,2022-10-31,0.6,0
+181,67,Female,Heart Disease,Medication,12,2,2023-03-13,0.4,0
+182,37,Female,Cancer,Surgery,33,11,2022-11-19,0.55,0
+183,33,Female,Hypertension,Medication,7,2,2023-05-17,0.1,0
+184,64,Male,Hypertension,Medication,5,1,2023-01-28,0.2,0
+185,50,Female,Cancer,Surgery,17,7,2023-08-22,0.45,1
+186,69,Male,Stroke,Medication,18,6,2022-05-29,0.4,0
+187,64,Female,Pneumonia,Medication,8,4,2023-02-09,0.2,0
+188,53,Male,Heart Disease,Medication,5,1,2022-10-10,0.30000000000000004,0
+189,38,Male,Diabetes Type 2,Medication,8,2,2022-12-28,0.1,0
+190,24,Male,Asthma,Medication,13,3,2023-01-14,0.1,0
+191,46,Male,Diabetes Type 2,Medication,1,3,2022-07-17,0.1,0
+192,72,Female,Stroke,Surgery,45,15,2023-07-10,0.7500000000000001,1
+193,59,Male,Diabetes Type 2,Medication,8,2,2022-12-22,0.1,0
+194,30,Male,Diabetes Type 2,Medication,8,1,2023-06-24,0.1,0
+195,58,Male,Cancer,Surgery,28,8,2023-03-05,0.55,1
+196,62,Male,Heart Disease,Medication,7,4,2022-01-17,0.4,0
+197,37,Male,Cancer,Surgery,29,5,2023-10-01,0.55,0
+198,58,Male,Cancer,Surgery,29,6,2023-01-14,0.55,0
+199,56,Female,Diabetes Type 2,Medication,2,1,2023-11-11,0.1,0
+200,32,Female,Diabetes Type 2,Medication,6,3,2023-05-21,0.1,1
+201,62,Female,Diabetes Type 2,Medication,3,1,2022-03-17,0.2,0
+202,66,Male,Stroke,Medication,24,6,2022-08-19,0.5,1
+203,76,Male,Pneumonia,Medication,2,1,2023-12-17,0.30000000000000004,0
+204,76,Female,Cancer,Surgery,57,15,2022-09-05,0.7500000000000001,1
+205,27,Female,Asthma,Medication,8,1,2022-10-29,0.1,0
+206,36,Male,Cancer,Surgery,32,12,2023-12-27,0.55,0
+207,65,Male,Diabetes Type 2,Medication,1,2,2022-08-03,0.2,0
+208,65,Male,Pneumonia,Medication,7,3,2022-06-07,0.2,0
+209,65,Male,Heart Disease,Surgery,23,7,2022-03-10,0.65,1
+210,95,Male,Heart Disease,Medication,8,5,2023-01-28,0.5,1
+211,66,Female,Stroke,Surgery,23,7,2022-03-26,0.65,1
+212,77,Female,Cancer,Surgery,32,8,2022-09-24,0.7500000000000001,1
+213,74,Female,Stroke,Surgery,36,10,2022-03-10,0.7500000000000001,1
+214,68,Female,Stroke,Medication,12,6,2023-09-03,0.4,1
+215,48,Female,Hypertension,Medication,10,4,2022-12-13,0.1,1
+216,70,Female,Stroke,Surgery,36,9,2023-12-29,0.65,0
+217,39,Female,Diabetes Type 2,Medication,5,2,2023-11-04,0.1,1
+218,50,Male,Diabetes Type 2,Medication,3,2,2023-02-27,0.1,0
+219,45,Male,Heart Disease,Surgery,16,5,2023-08-29,0.45,1
+220,56,Male,Pneumonia,Medication,10,4,2022-06-23,0.1,0
+221,95,Female,Heart Disease,Surgery,15,4,2023-11-08,0.6500000000000001,0
+222,18,Female,Pneumonia,Medication,1,1,2022-04-25,0.1,0
+223,68,Male,Hypertension,Medication,12,4,2022-08-08,0.2,0
+224,22,Female,Diabetes Type 1,Medication,6,1,2022-01-31,0.1,0
+225,45,Male,Heart Disease,Surgery,15,7,2023-06-07,0.45,0
+226,76,Female,Heart Disease,Surgery,35,9,2022-12-09,0.7500000000000001,1
+227,56,Male,Cancer,Surgery,33,6,2023-01-12,0.55,1
+228,33,Male,Diabetes Type 2,Medication,5,1,2022-05-10,0.1,0
+229,40,Female,Cancer,Surgery,16,4,2023-09-09,0.45,1
+230,68,Male,Cancer,Surgery,37,12,2023-06-23,0.65,1
+231,40,Male,Hypertension,Medication,7,1,2022-01-02,0.1,0
+232,59,Male,Pneumonia,Medication,8,2,2022-04-11,0.1,0
+233,55,Female,Heart Disease,Surgery,27,5,2023-06-17,0.55,0
+234,41,Female,Pneumonia,Medication,8,4,2022-02-27,0.1,0
+235,95,Male,Hypertension,Medication,9,6,2023-01-24,0.30000000000000004,0
+236,67,Female,Stroke,Medication,13,7,2023-11-23,0.4,0
+237,18,Female,Appendicitis,Surgery,15,7,2022-12-07,0.25,0
+238,58,Male,Heart Disease,Surgery,11,5,2022-01-20,0.45,1
+239,41,Male,Heart Disease,Surgery,14,2,2022-09-12,0.45,1
+240,72,Male,Stroke,Surgery,44,13,2022-11-13,0.7500000000000001,1
+241,39,Male,Heart Disease,Medication,6,1,2022-02-07,0.30000000000000004,0
+242,52,Female,Heart Disease,Surgery,13,6,2023-10-22,0.45,1
+243,65,Male,Hypertension,Medication,1,1,2023-06-21,0.2,0
+244,72,Female,Hypertension,Medication,15,6,2023-01-21,0.30000000000000004,0
+245,30,Female,Heart Disease,Medication,8,2,2023-09-25,0.30000000000000004,0
+246,48,Male,Cancer,Surgery,32,11,2022-01-26,0.55,0
+247,45,Female,Cancer,Surgery,12,7,2023-03-30,0.45,0
+248,41,Male,Heart Disease,Medication,11,3,2023-11-12,0.30000000000000004,0
+249,90,Female,Heart Disease,Medication,8,1,2022-11-19,0.5,1
+250,63,Female,Diabetes Type 2,Medication,7,3,2023-05-28,0.2,0
+251,29,Female,Appendicitis,Surgery,8,5,2022-01-13,0.25,0
+252,73,Female,Cancer,Surgery,15,6,2023-07-14,0.6500000000000001,0
+253,95,Male,Cancer,Surgery,59,15,2023-01-06,0.7500000000000001,1
+254,75,Female,Heart Disease,Surgery,30,7,2022-10-18,0.7500000000000001,1
+255,24,Female,Pneumonia,Medication,6,2,2022-11-28,0.1,0
+256,45,Female,Hypertension,Medication,4,1,2023-08-29,0.1,0
+257,80,Female,Stroke,Medication,15,4,2022-09-18,0.5,0
+258,40,Female,Pneumonia,Medication,5,1,2022-07-24,0.1,0
+259,63,Male,Heart Disease,Surgery,9,2,2023-11-28,0.55,1
+260,70,Male,Pneumonia,Medication,9,5,2023-11-18,0.2,1
+261,36,Female,Diabetes Type 2,Medication,7,1,2023-01-22,0.1,0
+262,53,Male,Cancer,Surgery,45,12,2023-04-13,0.55,1
+263,18,Female,Appendicitis,Surgery,14,4,2023-02-19,0.25,0
+264,34,Female,Diabetes Type 2,Medication,2,1,2022-03-10,0.1,0
+265,49,Male,Cancer,Surgery,31,7,2023-04-17,0.55,1
+266,30,Male,Heart Disease,Medication,6,4,2022-04-14,0.30000000000000004,0
+267,87,Female,Heart Disease,Medication,16,2,2022-06-10,0.5,0
+268,26,Male,Appendicitis,Surgery,21,4,2022-07-19,0.35,0
+269,46,Female,Diabetes Type 2,Medication,11,2,2022-08-04,0.1,0
+270,57,Male,Cancer,Surgery,26,7,2022-07-31,0.55,0
+271,83,Female,Heart Disease,Surgery,35,14,2023-05-23,0.7500000000000001,1
+272,26,Male,Appendicitis,Surgery,15,5,2022-01-16,0.25,0
+273,78,Female,Stroke,Surgery,59,17,2023-05-13,0.7500000000000001,1
+274,55,Male,Pneumonia,Medication,6,1,2022-11-28,0.1,0
+275,35,Female,Diabetes Type 2,Medication,6,2,2023-12-18,0.1,0
+276,64,Male,Pneumonia,Medication,9,5,2023-07-05,0.2,0
+277,58,Female,Cancer,Surgery,35,10,2023-08-24,0.55,1
+278,42,Female,Diabetes Type 2,Medication,10,7,2022-09-13,0.1,0
+279,56,Male,Heart Disease,Surgery,15,7,2023-12-29,0.45,1
+280,47,Male,Heart Disease,Medication,10,3,2022-06-21,0.30000000000000004,0
+281,57,Male,Pneumonia,Medication,11,4,2023-10-11,0.1,0
+282,68,Female,Diabetes Type 2,Medication,9,6,2023-05-13,0.2,0
+283,86,Female,Cancer,Surgery,51,15,2023-04-16,0.7500000000000001,1
+284,30,Female,Heart Disease,Surgery,11,6,2023-01-19,0.45,0
+285,95,Male,Heart Disease,Surgery,38,15,2023-11-21,0.7500000000000001,1
+286,18,Male,Asthma,Medication,1,1,2023-08-12,0.1,0
+287,51,Female,Diabetes Type 2,Medication,10,4,2023-12-01,0.1,1
+288,66,Female,Cancer,Surgery,15,7,2023-05-22,0.55,0
+289,60,Female,Diabetes Type 2,Medication,7,3,2023-06-11,0.1,0
+290,42,Male,Heart Disease,Surgery,13,6,2022-11-21,0.45,1
+291,50,Female,Heart Disease,Medication,11,2,2022-08-02,0.30000000000000004,1
+292,45,Male,Heart Disease,Medication,4,1,2022-07-27,0.30000000000000004,0
+293,43,Male,Hypertension,Medication,10,3,2022-06-18,0.1,0
+294,71,Female,Hypertension,Medication,5,3,2022-11-26,0.30000000000000004,0
+295,62,Female,Stroke,Medication,23,4,2022-10-07,0.5,0
+296,41,Female,Cancer,Surgery,23,9,2022-11-01,0.55,0
+297,72,Male,Diabetes Type 2,Medication,10,5,2022-05-26,0.30000000000000004,0
+298,61,Male,Diabetes Type 2,Medication,7,4,2023-05-31,0.2,0
+299,71,Female,Heart Disease,Medication,16,2,2022-03-31,0.5,1
+300,67,Female,Hypertension,Medication,15,6,2023-03-29,0.2,0
+301,38,Male,Hypertension,Medication,8,3,2022-03-01,0.1,0
+302,43,Male,Diabetes Type 2,Medication,3,1,2022-11-07,0.1,1
+303,69,Male,Cancer,Surgery,31,9,2023-06-12,0.65,1
+304,67,Female,Heart Disease,Surgery,13,4,2022-08-15,0.55,1
+305,54,Male,Diabetes Type 2,Medication,1,1,2023-04-19,0.1,0
+306,57,Male,Heart Disease,Surgery,24,9,2023-06-25,0.55,1
+307,80,Male,Hypertension,Medication,9,1,2023-10-25,0.30000000000000004,1
+308,43,Male,Diabetes Type 2,Medication,5,4,2022-03-20,0.1,0
+309,65,Male,Heart Disease,Medication,13,6,2023-03-09,0.4,0
+310,50,Female,Diabetes Type 2,Medication,5,1,2022-06-02,0.1,0
+311,50,Male,Heart Disease,Surgery,9,4,2023-02-05,0.45,0
+312,76,Female,Cancer,Surgery,38,13,2022-10-06,0.7500000000000001,0
+313,71,Male,Hypertension,Medication,5,1,2022-02-26,0.30000000000000004,0
+314,71,Female,Heart Disease,Surgery,23,6,2022-07-05,0.7500000000000001,1
+315,81,Female,Stroke,Surgery,32,9,2023-02-02,0.7500000000000001,1
+316,55,Female,Heart Disease,Surgery,13,4,2023-08-28,0.45,1
+317,68,Female,Heart Disease,Surgery,16,4,2022-06-07,0.55,0
+318,48,Male,Heart Disease,Medication,6,1,2023-11-24,0.30000000000000004,0
+319,61,Male,Cancer,Surgery,34,12,2022-12-25,0.65,1
+320,52,Female,Heart Disease,Surgery,13,4,2023-03-16,0.45,1
+321,56,Female,Cancer,Surgery,29,10,2023-08-12,0.55,0
+322,66,Female,Cancer,Surgery,40,8,2023-04-11,0.65,1
+323,38,Female,Cancer,Surgery,26,7,2023-10-25,0.55,0
+324,95,Female,Cancer,Surgery,42,12,2023-03-22,0.7500000000000001,1
+325,34,Male,Cancer,Surgery,21,5,2023-05-03,0.55,0
+326,30,Male,Cancer,Surgery,38,10,2023-06-14,0.55,0
+327,78,Female,Cancer,Surgery,43,11,2022-03-14,0.7500000000000001,1
+328,70,Female,Pneumonia,Medication,8,4,2023-12-02,0.2,0
+329,67,Male,Cancer,Surgery,47,16,2022-01-17,0.65,1
+330,67,Female,Pneumonia,Medication,10,3,2023-06-15,0.2,1
+331,54,Male,Heart Disease,Surgery,6,1,2022-11-22,0.45,1
+332,37,Female,Heart Disease,Surgery,15,8,2023-09-24,0.45,1
+333,56,Male,Diabetes Type 2,Medication,4,1,2023-09-05,0.1,0
+334,41,Male,Diabetes Type 2,Medication,9,1,2023-06-30,0.1,0
+335,74,Female,Diabetes Type 2,Medication,9,1,2023-08-19,0.30000000000000004,1
+336,52,Male,Hypertension,Medication,11,4,2023-12-09,0.1,0
+337,38,Female,Hypertension,Medication,5,1,2022-07-21,0.1,0
+338,48,Female,Hypertension,Medication,7,4,2022-12-10,0.1,0
+339,63,Female,Hypertension,Medication,12,5,2023-06-07,0.2,0
+340,43,Male,Heart Disease,Medication,6,2,2023-02-04,0.30000000000000004,0
+341,38,Male,Pneumonia,Medication,5,1,2022-08-06,0.1,0
+342,59,Male,Hypertension,Medication,10,5,2023-03-21,0.1,0
+343,59,Female,Pneumonia,Medication,10,6,2022-08-10,0.1,1
+344,44,Female,Heart Disease,Surgery,11,5,2023-01-18,0.45,0
+345,45,Female,Hypertension,Medication,1,1,2023-08-15,0.1,0
+346,59,Female,Heart Disease,Medication,6,3,2022-01-07,0.30000000000000004,0
+347,26,Female,Diabetes Type 1,Medication,9,2,2022-09-29,0.1,0
+348,26,Female,Diabetes Type 1,Medication,4,1,2022-01-16,0.1,0
+349,40,Male,Hypertension,Medication,6,1,2023-02-28,0.1,0
+350,50,Female,Cancer,Surgery,21,5,2023-06-08,0.55,1
+351,61,Male,Pneumonia,Medication,1,1,2022-01-21,0.2,0
+352,84,Female,Diabetes Type 2,Medication,7,5,2023-11-21,0.30000000000000004,0
+353,72,Female,Cancer,Surgery,52,13,2022-08-16,0.7500000000000001,0
+354,51,Female,Diabetes Type 2,Medication,1,2,2022-10-15,0.1,0
+355,54,Male,Heart Disease,Medication,9,3,2022-05-14,0.30000000000000004,0
+356,34,Male,Diabetes Type 2,Medication,3,1,2022-10-10,0.1,0
+357,54,Male,Cancer,Surgery,40,10,2023-02-08,0.55,0
+358,49,Male,Hypertension,Medication,9,5,2023-10-27,0.1,0
+359,61,Male,Hypertension,Medication,7,3,2022-03-07,0.2,1
+360,38,Female,Diabetes Type 2,Medication,6,3,2023-10-11,0.1,0
+361,65,Female,Stroke,Surgery,21,8,2023-08-27,0.65,0
+362,85,Male,Stroke,Medication,8,1,2023-03-13,0.5,1
+363,52,Male,Heart Disease,Medication,14,4,2022-09-16,0.30000000000000004,1
+364,63,Male,Hypertension,Medication,5,1,2022-04-13,0.2,0
+365,68,Female,Diabetes Type 2,Medication,17,6,2023-07-21,0.2,0
+366,46,Female,Cancer,Surgery,19,6,2022-04-11,0.45,1
+367,59,Female,Heart Disease,Medication,10,5,2022-07-17,0.30000000000000004,0
+368,55,Female,Hypertension,Medication,4,1,2022-08-14,0.1,0
+369,56,Female,Diabetes Type 2,Medication,10,1,2023-04-08,0.1,0
+370,39,Female,Hypertension,Medication,6,1,2022-08-25,0.1,0
+371,55,Male,Heart Disease,Medication,7,1,2022-01-26,0.30000000000000004,1
+372,64,Female,Hypertension,Medication,10,6,2022-05-01,0.2,0
+373,84,Male,Hypertension,Medication,8,4,2023-05-21,0.30000000000000004,1
+374,74,Female,Cancer,Surgery,20,5,2022-07-01,0.6500000000000001,0
+375,95,Male,Diabetes Type 2,Medication,13,5,2023-12-12,0.30000000000000004,0
+376,39,Female,Diabetes Type 2,Medication,3,1,2023-09-26,0.1,0
+377,72,Female,Hypertension,Medication,12,5,2023-06-27,0.30000000000000004,0
+378,58,Female,Heart Disease,Surgery,22,4,2022-11-11,0.55,1
+379,95,Female,Stroke,Surgery,32,11,2023-09-10,0.7500000000000001,0
+380,38,Male,Hypertension,Medication,10,2,2022-09-30,0.1,0
+381,38,Male,Diabetes Type 2,Medication,8,4,2022-08-20,0.1,0
+382,43,Male,Hypertension,Medication,4,1,2023-02-24,0.1,1
+383,18,Male,Appendicitis,Surgery,21,4,2023-03-18,0.35,0
+384,44,Female,Diabetes Type 2,Medication,3,3,2023-05-11,0.1,0
+385,39,Male,Hypertension,Medication,5,2,2022-01-24,0.1,0
+386,58,Female,Stroke,Surgery,28,7,2022-04-19,0.55,0
+387,61,Female,Heart Disease,Surgery,20,7,2023-12-04,0.55,1
+388,92,Female,Cancer,Surgery,58,14,2023-05-17,0.7500000000000001,0
+389,74,Male,Cancer,Surgery,57,19,2022-01-25,0.7500000000000001,1
+390,43,Female,Hypertension,Medication,7,2,2022-07-06,0.1,0
+391,37,Female,Hypertension,Medication,6,3,2022-10-15,0.1,0
+392,64,Female,Cancer,Surgery,11,2,2023-09-20,0.55,1
+393,28,Female,Pneumonia,Medication,3,1,2022-12-04,0.1,0
+394,91,Female,Cancer,Surgery,68,20,2022-02-06,0.7500000000000001,1
+395,78,Male,Diabetes Type 2,Medication,2,2,2022-05-17,0.30000000000000004,1
+396,45,Female,Heart Disease,Medication,4,2,2023-05-23,0.30000000000000004,0
+397,20,Male,Appendicitis,Surgery,19,4,2022-08-15,0.25,0
+398,82,Male,Diabetes Type 2,Medication,11,4,2022-11-16,0.30000000000000004,0
+399,52,Male,Pneumonia,Medication,11,6,2022-07-01,0.1,0
+400,79,Male,Diabetes Type 2,Medication,12,4,2022-03-27,0.30000000000000004,0
+401,23,Male,Diabetes Type 1,Medication,11,3,2023-04-12,0.1,0
+402,43,Male,Diabetes Type 2,Medication,7,1,2022-02-22,0.1,0
+403,55,Female,Hypertension,Medication,10,3,2022-08-23,0.1,0
+404,55,Female,Hypertension,Medication,5,1,2023-03-09,0.1,0
+405,45,Female,Diabetes Type 2,Medication,8,3,2023-05-11,0.1,0
+406,67,Male,Pneumonia,Medication,8,4,2022-04-10,0.2,0
+407,33,Male,Hypertension,Medication,5,1,2023-08-22,0.1,0
+408,52,Female,Heart Disease,Surgery,22,9,2023-02-07,0.55,0
+409,57,Male,Hypertension,Medication,11,3,2023-01-31,0.1,0
+410,65,Male,Stroke,Medication,26,7,2023-06-11,0.5,1
+411,69,Female,Heart Disease,Medication,17,4,2023-02-19,0.4,0
+412,32,Male,Hypertension,Medication,9,1,2023-09-05,0.1,0
+413,24,Female,Appendicitis,Surgery,5,1,2023-11-08,0.25,0
+414,80,Female,Cancer,Surgery,69,24,2023-04-08,0.7500000000000001,1
+415,61,Male,Hypertension,Medication,11,2,2023-06-25,0.2,0
+416,40,Male,Diabetes Type 2,Medication,4,1,2023-09-18,0.1,0
+417,86,Female,Cancer,Surgery,52,15,2023-09-11,0.7500000000000001,1
+418,57,Male,Cancer,Surgery,21,6,2022-12-30,0.55,0
+419,78,Male,Heart Disease,Medication,13,4,2022-05-10,0.5,0
+420,56,Female,Cancer,Surgery,17,5,2022-03-25,0.45,0
+421,95,Male,Diabetes Type 2,Medication,6,3,2022-09-28,0.30000000000000004,1
+422,90,Female,Pneumonia,Medication,13,4,2022-09-01,0.30000000000000004,1
+423,50,Female,Stroke,Medication,18,5,2023-01-23,0.30000000000000004,0
+424,74,Male,Heart Disease,Surgery,23,8,2022-08-02,0.7500000000000001,0
+425,67,Male,Stroke,Surgery,33,7,2022-06-15,0.65,0
+426,82,Male,Hypertension,Medication,1,1,2022-02-28,0.30000000000000004,0
+427,35,Male,Cancer,Surgery,25,8,2023-08-25,0.55,1
+428,68,Male,Diabetes Type 2,Medication,12,8,2023-05-19,0.2,0
+429,76,Female,Cancer,Surgery,37,11,2023-12-07,0.7500000000000001,0
+430,19,Male,Pneumonia,Medication,6,2,2022-05-03,0.1,0
+431,31,Female,Hypertension,Medication,6,1,2023-10-10,0.1,0
+432,18,Female,Appendicitis,Surgery,12,7,2023-02-17,0.25,1
+433,49,Female,Hypertension,Medication,7,2,2022-05-19,0.1,0
+434,69,Female,Diabetes Type 2,Medication,9,3,2022-08-17,0.2,0
+435,85,Male,Hypertension,Medication,16,6,2022-10-01,0.30000000000000004,0
+436,56,Female,Diabetes Type 2,Medication,1,1,2023-03-15,0.1,0
+437,87,Female,Heart Disease,Surgery,16,2,2023-07-16,0.6500000000000001,0
+438,27,Male,Asthma,Medication,4,2,2022-04-28,0.1,0
+439,20,Male,Asthma,Medication,7,1,2023-12-15,0.1,0
+440,53,Female,Hypertension,Medication,8,1,2023-04-28,0.1,0
+441,62,Male,Pneumonia,Medication,14,8,2023-01-30,0.2,0
+442,54,Male,Diabetes Type 2,Medication,15,5,2023-12-04,0.1,1
+443,18,Male,Asthma,Medication,4,2,2023-04-05,0.1,0
+444,53,Male,Heart Disease,Surgery,16,4,2023-11-24,0.45,0
+445,28,Female,Pneumonia,Medication,7,1,2022-03-19,0.1,0
+446,68,Female,Heart Disease,Surgery,15,7,2023-02-16,0.55,0
+447,62,Female,Heart Disease,Surgery,20,6,2022-03-16,0.55,1
+448,36,Male,Hypertension,Medication,6,1,2022-10-22,0.1,0
+449,44,Male,Heart Disease,Medication,3,1,2022-01-21,0.30000000000000004,0
+450,33,Female,Cancer,Surgery,25,6,2022-06-20,0.55,1
+451,53,Male,Diabetes Type 2,Medication,4,1,2022-01-15,0.1,0
+452,74,Male,Heart Disease,Surgery,28,5,2022-07-30,0.7500000000000001,1
+453,35,Female,Cancer,Surgery,47,14,2023-07-14,0.55,1
+454,65,Male,Diabetes Type 2,Medication,9,3,2022-03-27,0.2,0
+455,44,Female,Diabetes Type 2,Medication,7,5,2022-05-29,0.1,0
+456,39,Male,Heart Disease,Surgery,14,5,2023-12-01,0.45,1
+457,52,Male,Cancer,Surgery,47,12,2023-01-07,0.55,1
+458,34,Male,Diabetes Type 2,Medication,10,4,2023-04-25,0.1,1
+459,43,Female,Pneumonia,Medication,6,1,2022-05-31,0.1,0
+460,31,Female,Hypertension,Medication,7,2,2022-05-21,0.1,0
+461,94,Female,Diabetes Type 2,Medication,13,5,2022-03-10,0.30000000000000004,1
+462,55,Female,Stroke,Medication,7,3,2022-09-17,0.30000000000000004,0
+463,41,Male,Heart Disease,Surgery,20,8,2023-06-05,0.45,1
+464,59,Female,Heart Disease,Surgery,27,13,2023-09-25,0.55,0
+465,52,Male,Heart Disease,Medication,12,5,2023-01-06,0.30000000000000004,0
+466,50,Female,Heart Disease,Medication,3,2,2023-02-23,0.30000000000000004,0
+467,67,Male,Diabetes Type 2,Medication,1,4,2022-04-11,0.2,0
+468,70,Female,Cancer,Surgery,52,13,2023-10-23,0.65,1
+469,44,Male,Hypertension,Medication,4,1,2023-10-20,0.1,0
+470,43,Male,Pneumonia,Medication,7,2,2022-08-31,0.1,0
+471,49,Female,Diabetes Type 2,Medication,11,5,2023-05-27,0.1,0
+472,18,Male,Appendicitis,Surgery,10,4,2023-07-09,0.25,1
+473,24,Male,Pneumonia,Medication,5,1,2022-04-05,0.1,0
+474,82,Male,Hypertension,Medication,11,4,2022-08-14,0.30000000000000004,0
+475,87,Male,Heart Disease,Medication,4,3,2023-06-02,0.5,1
+476,50,Female,Cancer,Surgery,20,3,2022-08-02,0.45,0
+477,66,Female,Stroke,Surgery,38,9,2023-12-19,0.65,1
+478,61,Female,Diabetes Type 2,Medication,7,1,2022-03-08,0.2,0
+479,95,Female,Diabetes Type 2,Medication,13,5,2023-01-31,0.30000000000000004,0
+480,77,Male,Cancer,Surgery,83,27,2023-09-04,0.7500000000000001,0
+481,52,Female,Heart Disease,Medication,8,1,2022-01-12,0.30000000000000004,1
+482,35,Male,Hypertension,Medication,4,1,2022-08-25,0.1,0
+483,22,Male,Pneumonia,Medication,11,3,2023-02-03,0.1,0
+484,59,Female,Heart Disease,Medication,2,2,2023-02-11,0.30000000000000004,0
+485,39,Male,Hypertension,Medication,2,1,2023-04-25,0.1,0
+486,26,Female,Asthma,Medication,5,2,2023-10-09,0.1,0
+487,42,Male,Pneumonia,Medication,6,2,2022-08-10,0.1,0
+488,33,Female,Cancer,Surgery,21,8,2022-06-05,0.55,1
+489,88,Female,Stroke,Surgery,37,15,2023-10-16,0.7500000000000001,1
+490,72,Female,Heart Disease,Medication,11,2,2023-03-04,0.5,1
+491,54,Female,Pneumonia,Medication,12,3,2022-06-07,0.1,1
+492,84,Female,Heart Disease,Medication,10,4,2023-02-20,0.5,1
+493,56,Male,Pneumonia,Medication,6,1,2022-11-22,0.1,0
+494,37,Female,Pneumonia,Medication,10,5,2023-01-06,0.1,0
+495,85,Male,Hypertension,Medication,6,4,2022-12-10,0.30000000000000004,1
+496,65,Female,Pneumonia,Medication,2,1,2022-09-19,0.2,0
+497,34,Female,Heart Disease,Surgery,20,4,2022-10-10,0.45,1
+498,51,Female,Cancer,Surgery,47,13,2022-08-17,0.55,1
+499,37,Male,Diabetes Type 2,Medication,4,1,2022-10-07,0.1,0
+500,27,Male,Diabetes Type 1,Medication,5,2,2022-10-17,0.1,0
+501,73,Female,Heart Disease,Surgery,14,2,2023-11-11,0.6500000000000001,0
+502,93,Male,Diabetes Type 2,Medication,11,2,2022-02-16,0.30000000000000004,0
+503,27,Male,Asthma,Medication,12,4,2023-12-16,0.1,0
+504,66,Male,Heart Disease,Medication,13,4,2022-08-02,0.4,0
+505,41,Female,Cancer,Surgery,38,5,2022-01-24,0.55,1
+506,45,Female,Pneumonia,Medication,9,1,2022-11-17,0.1,0
+507,43,Male,Pneumonia,Medication,6,1,2022-10-01,0.1,0
+508,37,Male,Pneumonia,Medication,10,3,2023-07-10,0.1,0
+509,55,Male,Diabetes Type 2,Medication,11,3,2022-11-09,0.1,0
+510,38,Female,Pneumonia,Medication,11,3,2022-12-29,0.1,0
+511,60,Female,Hypertension,Medication,6,3,2023-10-30,0.1,0
+512,53,Male,Heart Disease,Medication,2,1,2023-01-15,0.30000000000000004,1
+513,50,Male,Diabetes Type 2,Medication,10,4,2023-12-12,0.1,1
+514,36,Male,Heart Disease,Surgery,15,6,2023-11-05,0.45,0
+515,43,Female,Hypertension,Medication,6,1,2023-04-15,0.1,0
+516,70,Female,Diabetes Type 2,Medication,9,2,2023-11-06,0.2,1
+517,65,Male,Hypertension,Medication,17,1,2022-04-26,0.2,0
+518,35,Male,Hypertension,Medication,5,1,2023-08-28,0.1,0
+519,56,Male,Diabetes Type 2,Medication,5,3,2022-02-11,0.1,1
+520,70,Female,Hypertension,Medication,10,6,2023-01-14,0.2,0
+521,21,Male,Pneumonia,Medication,10,3,2023-12-23,0.1,0
+522,65,Female,Heart Disease,Medication,16,5,2022-07-25,0.4,1
+523,41,Female,Hypertension,Medication,8,1,2023-04-11,0.1,0
+524,66,Male,Cancer,Surgery,22,5,2022-10-07,0.65,1
+525,39,Male,Pneumonia,Medication,12,4,2023-10-10,0.1,0
+526,18,Male,Appendicitis,Surgery,13,7,2023-09-10,0.25,0
+527,22,Female,Diabetes Type 1,Medication,4,2,2022-04-28,0.1,0
+528,55,Female,Heart Disease,Surgery,10,4,2022-08-25,0.45,1
+529,60,Female,Cancer,Surgery,43,13,2022-11-05,0.55,0
+530,36,Female,Cancer,Surgery,30,9,2023-04-01,0.55,1
+531,67,Male,Hypertension,Medication,12,7,2023-04-20,0.2,0
+532,21,Female,Appendicitis,Surgery,20,1,2022-04-10,0.25,0
+533,53,Female,Cancer,Surgery,23,7,2022-09-18,0.55,1
+534,30,Male,Hypertension,Medication,11,6,2022-11-01,0.1,0
+535,41,Female,Diabetes Type 2,Medication,5,1,2022-12-20,0.1,1
+536,55,Female,Hypertension,Medication,16,6,2022-10-13,0.1,0
+537,37,Female,Hypertension,Medication,8,2,2022-11-24,0.1,0
+538,47,Female,Hypertension,Medication,4,1,2022-04-13,0.1,0
+539,75,Female,Cancer,Surgery,11,3,2022-03-04,0.6500000000000001,1
+540,43,Female,Pneumonia,Medication,9,5,2023-11-18,0.1,0
+541,71,Male,Pneumonia,Medication,8,2,2022-10-09,0.30000000000000004,0
+542,32,Male,Hypertension,Medication,6,3,2023-03-17,0.1,0
+543,65,Female,Hypertension,Medication,11,5,2022-10-20,0.2,1
+544,83,Male,Cancer,Surgery,57,15,2022-01-07,0.7500000000000001,1
+545,18,Male,Pneumonia,Medication,10,4,2023-10-01,0.1,0
+546,39,Male,Cancer,Surgery,16,3,2022-04-02,0.45,1
+547,66,Male,Pneumonia,Medication,16,4,2022-07-09,0.2,0
+548,50,Female,Pneumonia,Medication,5,1,2023-04-21,0.1,0
+549,62,Female,Diabetes Type 2,Medication,1,1,2023-05-26,0.2,0
+550,42,Male,Diabetes Type 2,Medication,3,2,2023-04-07,0.1,0
+551,56,Male,Hypertension,Medication,9,3,2022-02-22,0.1,0
+552,51,Male,Cancer,Surgery,21,4,2023-05-01,0.55,1
+553,78,Female,Diabetes Type 2,Medication,10,2,2023-10-06,0.30000000000000004,1
+554,60,Female,Cancer,Surgery,37,11,2023-05-05,0.55,0
+555,61,Male,Hypertension,Medication,7,1,2022-12-30,0.2,0
+556,46,Female,Hypertension,Medication,5,1,2022-04-22,0.1,0
+557,45,Female,Hypertension,Medication,3,1,2023-02-13,0.1,0
+558,46,Female,Pneumonia,Medication,7,5,2022-01-07,0.1,0
+559,62,Female,Heart Disease,Surgery,4,1,2023-10-30,0.55,1
+560,46,Male,Diabetes Type 2,Medication,4,3,2022-07-16,0.1,0
+561,60,Female,Heart Disease,Surgery,11,3,2023-01-02,0.45,0
+562,95,Male,Heart Disease,Medication,9,5,2022-09-07,0.5,1
+563,72,Female,Heart Disease,Medication,9,5,2023-08-18,0.5,1
+564,48,Female,Hypertension,Medication,9,2,2022-08-28,0.1,0
+565,79,Female,Stroke,Surgery,59,13,2023-01-15,0.7500000000000001,0
+566,46,Female,Hypertension,Medication,3,1,2023-04-16,0.1,0
+567,18,Male,Asthma,Medication,12,3,2023-12-02,0.1,0
+568,34,Female,Heart Disease,Surgery,10,6,2023-03-31,0.45,0
+569,18,Female,Pneumonia,Medication,7,2,2023-01-01,0.1,0
+570,47,Female,Heart Disease,Surgery,16,5,2022-10-17,0.45,1
+571,55,Male,Diabetes Type 2,Medication,17,7,2023-02-07,0.1,0
+572,88,Male,Hypertension,Medication,8,3,2022-02-27,0.30000000000000004,1
+573,61,Male,Cancer,Surgery,12,4,2023-06-05,0.55,1
+574,50,Female,Cancer,Surgery,42,13,2022-10-31,0.55,1
+575,71,Female,Stroke,Medication,12,5,2022-04-25,0.5,0
+576,18,Male,Asthma,Medication,5,1,2022-07-29,0.1,0
+577,59,Female,Stroke,Medication,7,1,2022-02-10,0.30000000000000004,1
+578,70,Female,Cancer,Surgery,36,10,2022-06-22,0.65,1
+579,25,Female,Diabetes Type 1,Medication,4,3,2022-08-22,0.1,1
+580,77,Female,Diabetes Type 2,Medication,13,7,2023-08-13,0.30000000000000004,1
+581,61,Female,Diabetes Type 2,Medication,8,3,2023-09-12,0.2,0
+582,46,Female,Hypertension,Medication,4,2,2023-02-07,0.1,0
+583,67,Male,Diabetes Type 2,Medication,14,6,2022-02-08,0.2,1
+584,95,Female,Heart Disease,Medication,11,4,2022-04-29,0.5,1
+585,58,Female,Cancer,Surgery,11,5,2022-12-01,0.45,0
+586,59,Female,Stroke,Medication,21,8,2022-12-02,0.4,0
+587,45,Female,Hypertension,Medication,7,1,2023-06-23,0.1,0
+588,38,Female,Hypertension,Medication,11,2,2023-09-08,0.1,0
+589,71,Male,Heart Disease,Medication,11,3,2022-03-15,0.5,0
+590,37,Male,Pneumonia,Medication,4,1,2022-07-10,0.1,0
+591,56,Male,Diabetes Type 2,Medication,7,4,2022-11-20,0.1,0
+592,45,Male,Diabetes Type 2,Medication,9,2,2022-05-27,0.1,0
+593,64,Female,Stroke,Surgery,21,1,2022-10-11,0.65,1
+594,61,Female,Stroke,Surgery,25,6,2022-08-01,0.65,1
+595,75,Male,Cancer,Surgery,38,11,2023-09-27,0.7500000000000001,1
+596,44,Male,Heart Disease,Surgery,8,1,2023-12-19,0.45,0
+597,49,Female,Cancer,Surgery,20,4,2023-01-29,0.45,0
+598,35,Male,Heart Disease,Medication,7,4,2022-12-05,0.30000000000000004,0
+599,46,Female,Hypertension,Medication,10,4,2022-01-22,0.1,0
+600,62,Female,Stroke,Medication,17,5,2022-04-15,0.4,1
+601,70,Female,Diabetes Type 2,Medication,10,3,2023-04-11,0.2,0
+602,36,Male,Hypertension,Medication,4,1,2023-04-04,0.1,0
+603,72,Male,Cancer,Surgery,58,16,2023-03-08,0.7500000000000001,1
+604,82,Female,Heart Disease,Surgery,24,8,2023-12-17,0.7500000000000001,0
+605,63,Female,Heart Disease,Medication,5,1,2023-09-11,0.4,0
+606,92,Male,Hypertension,Medication,14,8,2022-08-09,0.30000000000000004,0
+607,39,Female,Hypertension,Medication,8,4,2023-01-14,0.1,0
+608,30,Male,Diabetes Type 2,Medication,4,1,2022-08-10,0.1,0
+609,19,Female,Pneumonia,Medication,6,3,2022-09-15,0.1,0
+610,84,Male,Heart Disease,Surgery,17,7,2023-12-14,0.6500000000000001,0
+611,68,Female,Pneumonia,Medication,22,5,2023-01-02,0.30000000000000004,0
+612,53,Male,Heart Disease,Surgery,19,5,2022-12-15,0.45,1
+613,60,Male,Cancer,Surgery,35,13,2022-08-13,0.55,0
+614,32,Male,Diabetes Type 2,Medication,8,6,2023-12-15,0.1,0
+615,95,Male,Heart Disease,Medication,16,4,2022-08-24,0.5,1
+616,57,Female,Heart Disease,Medication,8,1,2022-07-02,0.30000000000000004,0
+617,57,Female,Hypertension,Medication,6,1,2023-12-13,0.1,0
+618,69,Male,Pneumonia,Medication,14,7,2023-03-20,0.2,0
+619,64,Male,Heart Disease,Medication,7,1,2023-09-15,0.4,0
+620,59,Female,Hypertension,Medication,4,1,2022-01-06,0.1,0
+621,39,Female,Heart Disease,Surgery,7,3,2022-08-24,0.45,1
+622,64,Female,Stroke,Surgery,46,11,2022-05-07,0.65,1
+623,92,Male,Cancer,Surgery,43,15,2022-04-14,0.7500000000000001,1
+624,81,Male,Cancer,Surgery,33,11,2023-04-25,0.7500000000000001,1
+625,86,Female,Cancer,Surgery,38,15,2022-06-04,0.7500000000000001,1
+626,44,Male,Heart Disease,Medication,9,4,2022-09-14,0.30000000000000004,0
+627,35,Female,Cancer,Surgery,25,5,2022-08-23,0.55,1
+628,52,Male,Heart Disease,Surgery,8,3,2023-05-15,0.45,0
+629,56,Female,Cancer,Surgery,37,13,2022-10-16,0.55,1
+630,76,Male,Pneumonia,Medication,15,7,2023-05-25,0.30000000000000004,0
+631,21,Female,Asthma,Medication,10,2,2023-07-06,0.1,0
+632,85,Female,Pneumonia,Medication,7,1,2023-12-10,0.30000000000000004,1
+633,51,Female,Hypertension,Medication,12,3,2023-07-23,0.1,0
+634,46,Male,Diabetes Type 2,Medication,7,5,2022-10-25,0.1,0
+635,34,Female,Heart Disease,Surgery,20,7,2023-09-02,0.45,0
+636,21,Female,Diabetes Type 1,Medication,8,1,2022-05-17,0.1,1
+637,71,Female,Heart Disease,Medication,3,1,2023-01-11,0.5,1
+638,56,Female,Diabetes Type 2,Medication,14,5,2022-03-28,0.1,0
+639,29,Female,Diabetes Type 1,Medication,7,1,2023-02-23,0.1,0
+640,29,Female,Appendicitis,Surgery,16,4,2022-07-18,0.25,0
+641,48,Male,Cancer,Surgery,14,5,2023-04-08,0.45,0
+642,88,Female,Diabetes Type 2,Medication,12,7,2023-03-13,0.30000000000000004,0
+643,49,Female,Pneumonia,Medication,10,3,2022-11-06,0.1,0
+644,24,Male,Appendicitis,Surgery,23,3,2023-08-19,0.35,1
+645,50,Male,Cancer,Surgery,42,10,2022-10-08,0.55,0
+646,49,Male,Heart Disease,Surgery,16,3,2022-11-19,0.45,1
+647,18,Female,Appendicitis,Surgery,6,1,2023-12-03,0.25,0
+648,53,Female,Hypertension,Medication,8,1,2022-06-01,0.1,0
+649,50,Female,Hypertension,Medication,5,3,2022-10-29,0.1,0
+650,68,Female,Heart Disease,Medication,11,2,2022-10-05,0.4,0
+651,91,Male,Diabetes Type 2,Medication,5,2,2023-10-13,0.30000000000000004,1
+652,77,Male,Diabetes Type 2,Medication,9,6,2023-11-19,0.30000000000000004,0
+653,49,Male,Diabetes Type 2,Medication,5,2,2022-01-08,0.1,0
+654,32,Male,Pneumonia,Medication,5,2,2022-08-23,0.1,0
+655,95,Male,Stroke,Medication,14,8,2023-11-06,0.5,1
+656,56,Male,Hypertension,Medication,7,4,2023-07-15,0.1,0
+657,55,Female,Hypertension,Medication,9,4,2022-10-29,0.1,0
+658,54,Female,Diabetes Type 2,Medication,1,1,2022-02-07,0.1,0
+659,58,Female,Pneumonia,Medication,1,1,2022-05-16,0.1,0
+660,52,Female,Hypertension,Medication,7,2,2023-02-25,0.1,0
+661,43,Female,Heart Disease,Surgery,13,4,2022-08-07,0.45,1
+662,44,Male,Cancer,Surgery,29,9,2022-12-14,0.55,0
+663,54,Female,Cancer,Surgery,24,7,2023-06-30,0.55,0
+664,44,Female,Cancer,Surgery,28,5,2022-03-20,0.55,1
+665,40,Male,Hypertension,Medication,7,5,2022-09-30,0.1,0
+666,57,Male,Cancer,Surgery,24,8,2022-06-10,0.55,0
+667,49,Female,Diabetes Type 2,Medication,10,3,2023-11-18,0.1,1
+668,85,Male,Pneumonia,Medication,11,4,2022-11-04,0.30000000000000004,0
+669,18,Female,Asthma,Medication,8,4,2023-01-09,0.1,0
+670,76,Female,Hypertension,Medication,10,1,2022-01-09,0.30000000000000004,0
+671,79,Male,Hypertension,Medication,19,5,2023-03-20,0.30000000000000004,0
+672,18,Male,Diabetes Type 1,Medication,8,1,2022-04-23,0.1,0
+673,48,Male,Pneumonia,Medication,5,5,2022-07-24,0.1,0
+674,47,Male,Diabetes Type 2,Medication,9,3,2023-02-09,0.1,0
+675,26,Male,Pneumonia,Medication,2,1,2023-11-29,0.1,0
+676,39,Female,Hypertension,Medication,7,8,2022-07-16,0.1,0
+677,32,Male,Cancer,Surgery,31,8,2022-04-25,0.55,0
+678,90,Female,Hypertension,Medication,11,4,2022-05-01,0.30000000000000004,0
+679,73,Male,Cancer,Surgery,36,10,2023-10-15,0.7500000000000001,1
+680,80,Female,Heart Disease,Surgery,13,3,2022-03-06,0.6500000000000001,1
+681,69,Male,Stroke,Medication,12,5,2022-10-03,0.4,0
+682,32,Male,Hypertension,Medication,7,1,2022-08-27,0.1,0
+683,44,Female,Heart Disease,Medication,3,2,2022-10-29,0.30000000000000004,0
+684,64,Female,Pneumonia,Medication,14,3,2023-01-27,0.2,0
+685,30,Male,Diabetes Type 2,Medication,1,1,2023-06-06,0.1,0
+686,69,Female,Heart Disease,Medication,9,4,2023-01-04,0.4,0
+687,50,Male,Hypertension,Medication,7,2,2022-08-21,0.1,0
+688,47,Female,Cancer,Surgery,33,9,2022-07-14,0.55,1
+689,69,Male,Diabetes Type 2,Medication,6,1,2022-01-12,0.2,1
+690,63,Male,Pneumonia,Medication,12,7,2023-11-20,0.2,1
+691,47,Female,Hypertension,Medication,2,1,2022-06-26,0.1,0
+692,78,Female,Diabetes Type 2,Medication,7,1,2022-08-05,0.30000000000000004,0
+693,33,Male,Heart Disease,Medication,8,3,2022-01-11,0.30000000000000004,1
+694,67,Female,Stroke,Medication,27,5,2023-03-22,0.5,1
+695,66,Female,Heart Disease,Medication,4,4,2023-09-22,0.4,1
+696,48,Male,Cancer,Surgery,54,16,2022-06-13,0.55,1
+697,61,Female,Diabetes Type 2,Medication,5,1,2023-07-05,0.2,0
+698,29,Male,Pneumonia,Medication,3,2,2022-02-22,0.1,0
+699,73,Female,Heart Disease,Surgery,24,6,2022-08-06,0.7500000000000001,1
+700,51,Female,Stroke,Surgery,26,5,2023-12-19,0.55,0
+701,44,Female,Hypertension,Medication,5,2,2022-12-26,0.1,0
+702,75,Male,Cancer,Surgery,50,15,2023-01-20,0.7500000000000001,1
+703,40,Male,Hypertension,Medication,2,2,2022-02-25,0.1,0
+704,26,Male,Asthma,Medication,1,1,2022-04-28,0.1,0
+705,23,Male,Diabetes Type 1,Medication,5,2,2022-09-10,0.1,0
+706,67,Male,Hypertension,Medication,15,6,2022-06-29,0.2,0
+707,29,Female,Appendicitis,Surgery,11,6,2023-02-19,0.25,0
+708,90,Male,Diabetes Type 2,Medication,17,4,2022-08-23,0.30000000000000004,0
+709,18,Male,Diabetes Type 1,Medication,10,4,2023-12-09,0.1,0
+710,88,Female,Stroke,Surgery,41,13,2022-03-21,0.7500000000000001,1
+711,59,Male,Pneumonia,Medication,9,4,2023-10-09,0.1,0
+712,53,Female,Heart Disease,Surgery,18,4,2022-01-22,0.45,0
+713,44,Male,Heart Disease,Surgery,14,5,2023-04-22,0.45,0
+714,62,Female,Heart Disease,Surgery,14,5,2023-03-16,0.55,1
+715,54,Male,Diabetes Type 2,Medication,7,5,2023-07-24,0.1,0
+716,77,Male,Cancer,Surgery,25,6,2022-04-03,0.7500000000000001,1
+717,57,Female,Cancer,Surgery,7,1,2022-07-11,0.45,0
+718,58,Male,Cancer,Surgery,46,13,2022-04-13,0.55,1
+719,47,Female,Heart Disease,Medication,7,2,2023-01-31,0.30000000000000004,0
+720,53,Male,Cancer,Surgery,33,10,2022-01-07,0.55,0
+721,61,Male,Hypertension,Medication,9,2,2023-10-02,0.2,1
+722,20,Female,Pneumonia,Medication,4,1,2023-07-21,0.1,0
+723,28,Male,Appendicitis,Surgery,8,3,2022-08-19,0.25,0
+724,69,Female,Hypertension,Medication,9,4,2023-07-28,0.2,0
+725,58,Female,Cancer,Surgery,50,15,2022-08-28,0.55,1
+726,51,Female,Cancer,Surgery,19,5,2022-03-31,0.45,0
+727,55,Female,Hypertension,Medication,1,1,2022-08-20,0.1,0
+728,61,Male,Cancer,Surgery,27,9,2023-04-02,0.65,1
+729,44,Male,Hypertension,Medication,10,2,2022-08-21,0.1,0
+730,39,Male,Diabetes Type 2,Medication,1,1,2022-12-20,0.1,1
+731,58,Female,Pneumonia,Medication,4,4,2022-11-29,0.1,0
+732,35,Female,Heart Disease,Surgery,15,7,2023-03-15,0.45,1
+733,63,Male,Hypertension,Medication,17,4,2023-01-10,0.2,0
+734,20,Female,Diabetes Type 1,Medication,2,1,2022-10-19,0.1,0
+735,75,Male,Heart Disease,Surgery,10,3,2022-12-11,0.6500000000000001,0
+736,64,Female,Cancer,Surgery,37,11,2023-10-26,0.65,1
+737,60,Male,Hypertension,Medication,12,3,2023-03-04,0.1,0
+738,74,Female,Heart Disease,Surgery,16,6,2023-10-19,0.6500000000000001,1
+739,88,Female,Cancer,Surgery,17,5,2022-05-10,0.6500000000000001,0
+740,75,Male,Cancer,Surgery,48,14,2022-05-21,0.7500000000000001,1
+741,18,Male,Pneumonia,Medication,8,1,2023-02-19,0.1,0
+742,29,Male,Asthma,Medication,12,5,2022-04-03,0.1,1
+743,42,Male,Hypertension,Medication,8,1,2023-09-18,0.1,0
+744,55,Male,Diabetes Type 2,Medication,11,3,2022-10-11,0.1,0
+745,65,Female,Heart Disease,Surgery,15,6,2023-10-17,0.55,0
+746,40,Female,Pneumonia,Medication,14,9,2022-08-11,0.1,0
+747,58,Female,Heart Disease,Surgery,14,5,2023-04-08,0.45,1
+748,39,Male,Diabetes Type 2,Medication,5,1,2023-06-29,0.1,1
+749,42,Female,Heart Disease,Surgery,23,5,2022-10-03,0.55,1
+750,26,Female,Diabetes Type 1,Medication,2,1,2023-11-13,0.1,0
+751,36,Male,Diabetes Type 2,Medication,1,1,2022-05-20,0.1,0
+752,27,Female,Pneumonia,Medication,7,4,2022-12-23,0.1,0
+753,35,Female,Diabetes Type 2,Medication,6,2,2023-12-14,0.1,0
+754,76,Male,Cancer,Surgery,38,13,2022-01-23,0.7500000000000001,1
+755,36,Male,Hypertension,Medication,9,2,2022-09-27,0.1,1
+756,95,Female,Diabetes Type 2,Medication,6,1,2023-10-27,0.30000000000000004,1
+757,64,Male,Cancer,Surgery,34,11,2022-11-29,0.65,1
+758,58,Female,Cancer,Surgery,29,8,2022-03-26,0.55,1
+759,37,Female,Heart Disease,Surgery,9,3,2023-09-13,0.45,0
+760,69,Female,Pneumonia,Medication,10,6,2022-01-31,0.2,1
+761,43,Male,Heart Disease,Medication,9,4,2022-08-28,0.30000000000000004,1
+762,57,Male,Heart Disease,Medication,16,1,2022-12-29,0.30000000000000004,0
+763,95,Female,Heart Disease,Medication,13,6,2023-01-24,0.5,0
+764,53,Female,Pneumonia,Medication,1,1,2023-10-15,0.1,0
+765,77,Male,Cancer,Surgery,41,14,2023-10-30,0.7500000000000001,1
+766,40,Female,Hypertension,Medication,7,1,2022-10-26,0.1,1
+767,54,Female,Diabetes Type 2,Medication,11,4,2023-01-06,0.1,0
+768,90,Male,Diabetes Type 2,Medication,11,4,2022-04-09,0.30000000000000004,0
+769,42,Male,Heart Disease,Medication,10,2,2022-02-16,0.30000000000000004,0
+770,91,Female,Cancer,Surgery,47,15,2023-02-26,0.7500000000000001,1
+771,69,Male,Heart Disease,Surgery,32,9,2023-04-25,0.65,0
+772,43,Male,Pneumonia,Medication,5,3,2023-08-02,0.1,0
+773,67,Male,Cancer,Surgery,44,11,2022-03-03,0.65,1
+774,74,Male,Hypertension,Medication,14,3,2022-04-19,0.30000000000000004,0
+775,67,Female,Hypertension,Medication,7,2,2023-11-10,0.2,0
+776,23,Female,Diabetes Type 1,Medication,4,1,2023-07-03,0.1,0
+777,40,Male,Diabetes Type 2,Medication,5,1,2022-04-29,0.1,0
+778,50,Female,Cancer,Surgery,20,1,2023-08-21,0.45,0
+779,53,Female,Diabetes Type 2,Medication,10,4,2023-01-17,0.1,0
+780,67,Female,Stroke,Medication,4,2,2023-01-27,0.4,0
+781,58,Male,Pneumonia,Medication,2,1,2022-02-21,0.1,0
+782,28,Male,Appendicitis,Surgery,23,6,2023-08-26,0.35,0
+783,62,Female,Heart Disease,Medication,5,1,2022-10-16,0.4,0
+784,67,Female,Pneumonia,Medication,11,6,2022-12-03,0.2,1
+785,66,Male,Hypertension,Medication,3,1,2022-07-23,0.2,1
+786,76,Male,Stroke,Surgery,39,11,2022-08-26,0.7500000000000001,1
+787,71,Male,Heart Disease,Medication,7,3,2023-01-17,0.5,0
+788,64,Female,Diabetes Type 2,Medication,2,1,2023-10-29,0.2,0
+789,53,Female,Hypertension,Medication,13,5,2022-05-16,0.1,0
+790,21,Female,Diabetes Type 1,Medication,10,2,2023-02-11,0.1,0
+791,63,Male,Cancer,Surgery,32,11,2023-05-23,0.65,1
+792,59,Female,Heart Disease,Surgery,22,6,2022-12-28,0.55,1
+793,60,Female,Diabetes Type 2,Medication,15,3,2023-01-16,0.1,0
+794,29,Male,Appendicitis,Surgery,17,5,2023-07-30,0.25,1
+795,33,Female,Diabetes Type 2,Medication,8,3,2023-09-27,0.1,0
+796,76,Female,Pneumonia,Medication,11,7,2022-09-11,0.30000000000000004,0
+797,54,Male,Cancer,Surgery,41,13,2023-04-22,0.55,1
+798,68,Female,Stroke,Medication,15,3,2022-04-24,0.4,0
+799,55,Male,Heart Disease,Medication,7,1,2022-01-20,0.30000000000000004,1
+800,55,Female,Hypertension,Medication,10,5,2023-06-12,0.1,0
+801,73,Female,Pneumonia,Medication,8,1,2022-05-25,0.30000000000000004,1
+802,44,Female,Hypertension,Medication,5,1,2022-07-27,0.1,0
+803,56,Female,Heart Disease,Surgery,16,6,2023-06-15,0.45,1
+804,45,Male,Diabetes Type 2,Medication,10,3,2023-01-11,0.1,0
+805,46,Female,Hypertension,Medication,3,2,2023-05-19,0.1,0
+806,48,Female,Heart Disease,Medication,9,2,2022-06-15,0.30000000000000004,0
+807,59,Male,Pneumonia,Medication,11,6,2023-07-04,0.1,0
+808,45,Female,Diabetes Type 2,Medication,9,4,2022-06-30,0.1,0
+809,80,Female,Cancer,Surgery,29,7,2023-09-09,0.7500000000000001,1
+810,37,Male,Diabetes Type 2,Medication,1,1,2023-09-04,0.1,0
+811,51,Female,Hypertension,Medication,10,7,2023-08-25,0.1,0
+812,46,Female,Hypertension,Medication,7,2,2023-03-20,0.1,0
+813,83,Male,Diabetes Type 2,Medication,15,4,2022-11-28,0.30000000000000004,0
+814,58,Female,Diabetes Type 2,Medication,5,4,2023-05-18,0.1,0
+815,75,Male,Diabetes Type 2,Medication,13,6,2022-03-20,0.30000000000000004,1
+816,25,Male,Appendicitis,Surgery,19,8,2023-08-08,0.25,0
+817,60,Male,Hypertension,Medication,8,3,2023-11-19,0.1,0
+818,72,Female,Heart Disease,Medication,12,7,2023-01-31,0.5,1
+819,56,Female,Heart Disease,Medication,9,1,2023-08-31,0.30000000000000004,1
+820,76,Male,Stroke,Surgery,26,6,2022-04-13,0.7500000000000001,1
+821,44,Male,Heart Disease,Medication,8,3,2023-02-06,0.30000000000000004,0
+822,83,Female,Heart Disease,Surgery,33,12,2022-08-12,0.7500000000000001,1
+823,95,Male,Heart Disease,Surgery,21,7,2023-06-02,0.7500000000000001,1
+824,47,Female,Hypertension,Medication,2,1,2023-09-26,0.1,0
+825,46,Female,Hypertension,Medication,4,1,2022-08-24,0.1,0
+826,84,Female,Heart Disease,Surgery,7,4,2023-03-03,0.6500000000000001,1
+827,86,Female,Heart Disease,Medication,16,6,2022-04-26,0.5,1
+828,44,Male,Diabetes Type 2,Medication,9,2,2022-06-12,0.1,0
+829,46,Female,Heart Disease,Medication,5,1,2022-08-14,0.30000000000000004,0
+830,49,Female,Heart Disease,Medication,2,1,2022-08-18,0.30000000000000004,0
+831,28,Female,Diabetes Type 1,Medication,4,1,2022-07-01,0.1,0
+832,36,Male,Hypertension,Medication,5,3,2022-09-06,0.1,0
+833,34,Female,Pneumonia,Medication,7,3,2022-11-14,0.1,0
+834,39,Male,Cancer,Surgery,28,9,2022-07-29,0.55,0
+835,54,Male,Stroke,Medication,23,7,2023-10-18,0.4,1
+836,59,Male,Stroke,Surgery,22,7,2023-01-27,0.55,0
+837,86,Female,Pneumonia,Medication,3,1,2022-04-06,0.30000000000000004,0
+838,35,Female,Diabetes Type 2,Medication,3,2,2022-03-27,0.1,0
+839,74,Female,Heart Disease,Surgery,20,4,2023-02-19,0.6500000000000001,1
+840,50,Female,Diabetes Type 2,Medication,4,1,2023-01-29,0.1,0
+841,54,Male,Hypertension,Medication,7,2,2023-11-27,0.1,0
+842,68,Female,Hypertension,Medication,8,3,2023-09-25,0.2,0
+843,32,Male,Diabetes Type 2,Medication,9,4,2023-05-16,0.1,0
+844,62,Female,Heart Disease,Surgery,13,3,2023-08-27,0.55,0
+845,58,Female,Cancer,Surgery,29,9,2023-08-05,0.55,0
+846,64,Female,Pneumonia,Medication,10,3,2022-05-13,0.2,0
+847,60,Female,Diabetes Type 2,Medication,6,4,2023-10-11,0.1,0
+848,95,Male,Diabetes Type 2,Medication,12,3,2022-11-10,0.30000000000000004,1
+849,42,Male,Hypertension,Medication,7,1,2023-11-30,0.1,0
+850,44,Female,Diabetes Type 2,Medication,7,2,2022-08-09,0.1,0
+851,42,Male,Cancer,Surgery,16,2,2023-03-14,0.45,0
+852,43,Male,Heart Disease,Surgery,20,5,2022-02-15,0.45,1
+853,42,Female,Cancer,Surgery,50,13,2022-07-11,0.55,1
+854,78,Female,Diabetes Type 2,Medication,10,4,2023-06-04,0.30000000000000004,0
+855,83,Male,Diabetes Type 2,Medication,5,3,2023-01-14,0.30000000000000004,0
+856,43,Male,Hypertension,Medication,7,2,2023-11-22,0.1,0
+857,38,Female,Heart Disease,Surgery,18,5,2022-11-30,0.45,0
+858,64,Female,Cancer,Surgery,26,5,2022-02-08,0.65,1
+859,43,Male,Diabetes Type 2,Medication,6,2,2022-10-20,0.1,0
+860,67,Male,Diabetes Type 2,Medication,12,4,2023-11-21,0.2,1
+861,59,Male,Pneumonia,Medication,12,5,2022-06-11,0.1,0
+862,24,Male,Appendicitis,Surgery,17,3,2022-11-27,0.25,0
+863,85,Male,Stroke,Surgery,48,12,2022-04-14,0.7500000000000001,0
+864,90,Female,Cancer,Surgery,35,11,2022-06-10,0.7500000000000001,1
+865,42,Female,Diabetes Type 2,Medication,8,6,2023-09-27,0.1,1
+866,47,Female,Hypertension,Medication,4,1,2022-02-23,0.1,0
+867,60,Male,Cancer,Surgery,43,13,2022-02-03,0.55,0
+868,61,Female,Diabetes Type 2,Medication,12,6,2022-08-30,0.2,0
+869,68,Male,Heart Disease,Surgery,25,8,2022-04-23,0.65,1
+870,95,Female,Diabetes Type 2,Medication,8,3,2022-11-14,0.30000000000000004,0
+871,51,Female,Pneumonia,Medication,7,2,2022-01-23,0.1,0
+872,39,Male,Hypertension,Medication,12,4,2023-07-12,0.1,0
+873,27,Female,Diabetes Type 1,Medication,5,1,2023-10-09,0.1,0
+874,40,Male,Diabetes Type 2,Medication,10,4,2022-04-28,0.1,0
+875,54,Female,Hypertension,Medication,9,4,2023-12-02,0.1,0
+876,90,Male,Cancer,Surgery,36,12,2023-10-05,0.7500000000000001,0
+877,44,Male,Hypertension,Medication,2,1,2022-07-31,0.1,0
+878,59,Female,Heart Disease,Surgery,18,7,2023-02-22,0.45,0
+879,54,Male,Heart Disease,Surgery,17,7,2022-04-23,0.45,0
+880,78,Female,Heart Disease,Surgery,34,7,2022-02-13,0.7500000000000001,1
+881,95,Male,Hypertension,Medication,6,1,2022-05-08,0.30000000000000004,0
+882,44,Female,Cancer,Surgery,50,17,2022-06-07,0.55,0
+883,45,Female,Cancer,Surgery,31,8,2023-01-29,0.55,1
+884,75,Female,Hypertension,Medication,12,5,2023-05-27,0.30000000000000004,1
+885,68,Male,Heart Disease,Medication,7,2,2022-02-14,0.4,0
+886,91,Male,Cancer,Surgery,46,14,2022-04-18,0.7500000000000001,1
+887,66,Male,Cancer,Surgery,49,14,2022-08-07,0.65,0
+888,47,Male,Hypertension,Medication,9,4,2023-03-19,0.1,0
+889,66,Female,Diabetes Type 2,Medication,6,1,2022-11-11,0.2,1
+890,77,Female,Diabetes Type 2,Medication,16,2,2022-06-26,0.30000000000000004,0
+891,71,Female,Cancer,Surgery,47,17,2022-08-16,0.7500000000000001,0
+892,65,Female,Cancer,Surgery,40,16,2023-12-04,0.65,0
+893,76,Female,Stroke,Medication,17,5,2023-11-03,0.5,0
+894,78,Female,Hypertension,Medication,6,4,2022-09-24,0.30000000000000004,0
+895,82,Male,Cancer,Surgery,43,11,2023-01-14,0.7500000000000001,1
+896,67,Female,Pneumonia,Medication,11,3,2023-05-04,0.2,0
+897,51,Female,Pneumonia,Medication,3,3,2023-12-03,0.1,0
+898,57,Female,Cancer,Surgery,43,14,2023-11-18,0.55,1
+899,79,Male,Cancer,Surgery,56,20,2022-10-17,0.7500000000000001,1
+900,38,Male,Diabetes Type 2,Medication,4,2,2022-12-23,0.1,0
+901,62,Male,Pneumonia,Medication,4,1,2023-10-19,0.2,0
+902,47,Female,Cancer,Surgery,24,7,2022-07-23,0.55,1
+903,55,Female,Heart Disease,Medication,8,5,2022-08-01,0.30000000000000004,0
+904,80,Male,Cancer,Surgery,38,11,2023-07-06,0.7500000000000001,1
+905,58,Female,Diabetes Type 2,Medication,8,2,2022-11-19,0.1,0
+906,55,Male,Diabetes Type 2,Medication,9,4,2023-08-17,0.1,0
+907,27,Male,Appendicitis,Surgery,7,1,2022-06-30,0.25,1
+908,69,Male,Stroke,Surgery,20,6,2023-05-14,0.55,0
+909,67,Female,Hypertension,Medication,1,1,2022-11-16,0.2,0
+910,95,Female,Stroke,Surgery,50,14,2022-03-24,0.7500000000000001,1
+911,48,Male,Cancer,Surgery,28,10,2022-10-30,0.55,1
+912,59,Female,Hypertension,Medication,12,5,2022-09-19,0.1,0
+913,59,Male,Cancer,Surgery,19,4,2022-07-19,0.45,1
+914,86,Female,Diabetes Type 2,Medication,10,3,2022-08-28,0.30000000000000004,0
+915,53,Female,Heart Disease,Medication,9,3,2023-11-23,0.30000000000000004,0
+916,60,Female,Hypertension,Medication,6,1,2023-11-14,0.1,0
+917,67,Male,Heart Disease,Surgery,9,1,2022-10-22,0.55,1
+918,58,Female,Hypertension,Medication,14,4,2023-05-27,0.1,0
+919,46,Female,Hypertension,Medication,11,3,2023-11-20,0.1,0
+920,58,Male,Heart Disease,Surgery,14,5,2023-01-31,0.45,1
+921,76,Female,Heart Disease,Surgery,24,8,2022-05-18,0.7500000000000001,0
+922,34,Male,Hypertension,Medication,5,1,2022-05-09,0.1,0
+923,57,Female,Hypertension,Medication,4,2,2022-02-18,0.1,0
+924,40,Male,Heart Disease,Surgery,23,4,2023-11-07,0.55,0
+925,78,Female,Diabetes Type 2,Medication,3,1,2022-10-20,0.30000000000000004,1
+926,24,Female,Appendicitis,Surgery,12,3,2023-09-20,0.25,1
+927,43,Male,Hypertension,Medication,7,3,2023-06-20,0.1,0
+928,62,Male,Heart Disease,Surgery,26,8,2022-11-07,0.65,1
+929,86,Male,Heart Disease,Surgery,27,7,2023-06-21,0.7500000000000001,0
+930,53,Male,Stroke,Medication,4,1,2023-10-01,0.30000000000000004,0
+931,43,Male,Hypertension,Medication,6,1,2022-08-22,0.1,0
+932,92,Female,Cancer,Surgery,42,16,2022-07-28,0.7500000000000001,0
+933,26,Male,Appendicitis,Surgery,12,4,2023-08-28,0.25,0
+934,18,Male,Appendicitis,Surgery,17,6,2022-04-04,0.25,0
+935,63,Female,Diabetes Type 2,Medication,3,1,2022-11-23,0.2,0
+936,44,Male,Heart Disease,Surgery,11,5,2022-08-13,0.45,0
+937,34,Female,Hypertension,Medication,8,4,2022-01-11,0.1,0
+938,69,Female,Heart Disease,Surgery,26,7,2022-11-25,0.65,0
+939,59,Female,Cancer,Surgery,35,11,2022-01-12,0.55,0
+940,43,Female,Hypertension,Medication,6,6,2022-02-04,0.1,1
+941,29,Female,Appendicitis,Surgery,13,6,2023-03-23,0.25,0
+942,72,Male,Pneumonia,Medication,13,7,2023-03-28,0.30000000000000004,1
+943,68,Male,Diabetes Type 2,Medication,10,4,2022-08-08,0.2,0
+944,53,Male,Diabetes Type 2,Medication,4,1,2023-03-17,0.1,0
+945,91,Female,Cancer,Surgery,23,7,2023-10-15,0.7500000000000001,1
+946,33,Male,Diabetes Type 2,Medication,2,1,2023-06-19,0.1,0
+947,24,Female,Pneumonia,Medication,11,3,2023-08-18,0.1,1
+948,41,Female,Heart Disease,Medication,9,3,2022-08-17,0.30000000000000004,0
+949,54,Female,Hypertension,Medication,8,2,2022-12-10,0.1,0
+950,59,Female,Heart Disease,Surgery,14,4,2022-03-21,0.45,0
+951,50,Male,Diabetes Type 2,Medication,5,6,2022-12-19,0.1,0
+952,62,Female,Cancer,Surgery,46,15,2023-01-31,0.65,1
+953,29,Female,Asthma,Medication,12,5,2022-10-17,0.1,0
+954,83,Male,Diabetes Type 2,Medication,7,2,2023-03-31,0.30000000000000004,0
+955,53,Male,Diabetes Type 2,Medication,12,6,2023-11-02,0.1,0
+956,77,Female,Heart Disease,Surgery,21,10,2022-05-08,0.7500000000000001,0
+957,61,Female,Diabetes Type 2,Medication,7,3,2023-12-03,0.2,0
+958,64,Female,Heart Disease,Medication,13,5,2023-06-27,0.4,1
+959,66,Female,Cancer,Surgery,41,15,2022-12-25,0.65,1
+960,63,Female,Heart Disease,Surgery,18,5,2023-06-11,0.55,0
+961,67,Female,Hypertension,Medication,11,5,2022-11-09,0.2,0
+962,81,Male,Heart Disease,Surgery,8,4,2022-03-16,0.6500000000000001,1
+963,58,Male,Cancer,Surgery,37,10,2023-06-30,0.55,0
+964,69,Male,Stroke,Surgery,30,4,2022-07-15,0.65,1
+965,53,Female,Heart Disease,Surgery,8,2,2022-01-29,0.45,1
+966,83,Female,Diabetes Type 2,Medication,8,4,2023-12-07,0.30000000000000004,1
+967,41,Female,Diabetes Type 2,Medication,5,3,2022-01-16,0.1,0
+968,91,Male,Heart Disease,Surgery,28,11,2023-02-27,0.7500000000000001,1
+969,54,Female,Hypertension,Medication,4,1,2023-08-12,0.1,0
+970,26,Female,Appendicitis,Surgery,10,6,2023-08-16,0.25,1
+971,57,Female,Diabetes Type 2,Medication,9,3,2023-02-09,0.1,1
+972,41,Female,Heart Disease,Medication,3,2,2023-09-28,0.30000000000000004,0
+973,71,Male,Diabetes Type 2,Medication,7,4,2023-06-15,0.30000000000000004,1
+974,41,Female,Heart Disease,Surgery,5,1,2023-09-06,0.45,0
+975,46,Male,Hypertension,Medication,9,2,2022-03-18,0.1,1
+976,18,Male,Appendicitis,Surgery,12,3,2022-08-17,0.25,1
+977,45,Female,Heart Disease,Surgery,13,6,2022-10-24,0.45,0
+978,18,Female,Pneumonia,Medication,9,3,2023-05-25,0.1,0
+979,23,Female,Asthma,Medication,4,4,2023-12-16,0.1,0
+980,70,Female,Stroke,Surgery,33,9,2023-07-27,0.65,1
+981,70,Female,Stroke,Surgery,23,3,2023-06-22,0.65,0
+982,63,Female,Diabetes Type 2,Medication,4,1,2023-08-06,0.2,0
+983,35,Female,Diabetes Type 2,Medication,4,1,2023-09-07,0.1,0
+984,54,Male,Hypertension,Medication,6,3,2022-11-22,0.1,0
+985,54,Male,Diabetes Type 2,Medication,7,1,2022-12-29,0.1,1
+986,31,Male,Hypertension,Medication,7,3,2023-10-31,0.1,0
+987,85,Male,Stroke,Medication,11,5,2022-12-25,0.5,0
+988,72,Male,Stroke,Surgery,42,11,2023-12-07,0.7500000000000001,1
+989,50,Male,Diabetes Type 2,Medication,8,6,2022-11-20,0.1,1
+990,55,Male,Heart Disease,Surgery,13,4,2023-11-29,0.45,1
+991,59,Female,Cancer,Surgery,23,4,2022-11-22,0.55,1
+992,18,Male,Asthma,Medication,7,1,2023-09-17,0.1,0
+993,50,Female,Pneumonia,Medication,6,4,2022-06-14,0.1,0
+994,41,Male,Hypertension,Medication,7,2,2023-07-27,0.1,0
+995,34,Female,Hypertension,Medication,11,3,2023-08-27,0.1,0
+996,49,Male,Cancer,Surgery,28,5,2023-03-31,0.55,0
+997,90,Male,Cancer,Surgery,32,8,2022-06-02,0.7500000000000001,1
+998,67,Female,Diabetes Type 2,Medication,6,5,2022-05-07,0.2,1
+999,43,Male,Pneumonia,Medication,4,1,2022-07-12,0.1,0
+1000,66,Male,Heart Disease,Surgery,10,3,2023-09-19,0.55,0
